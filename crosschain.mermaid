@@ -1,0 +1,9 @@
+sequenceDiagram
+  participant A as Appchain A
+  participant B as Appchain B
+  participant S as Onchain Sequencer
+
+  A->>S: Transaction A
+  B->>S: Transaction B
+  S-->>A: Included Atomically
+  S-->>B: Included Atomically
