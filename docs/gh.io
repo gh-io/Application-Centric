@@ -2,7 +2,7 @@
 tittle: Application-centric
 Description: Historical 
 Context: The Evolution Towards ApplicationCentric Chains
----
+--- 
 
 ## <div className="diagram">
   <img alt="Evolution of web4" src={__img0} />
