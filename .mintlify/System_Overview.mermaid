@@ -1,0 +1,13 @@
+flowchart TD
+  U[Users / Wallets]
+  RPC[RPC / SDK]
+  TP[Transaction Pool]
+  OS[Onchain Sequencer]
+  B[Finalized Block]
+  DA[Permanent Onchain Storage]
+
+  U --> RPC
+  RPC --> TP
+  TP --> OS
+  OS --> B
+  B --> DA
