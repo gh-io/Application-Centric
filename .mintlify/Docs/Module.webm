@@ -1,0 +1,23 @@
+Onchain Sequencer
+│
+├─ Ordering Module
+│    • FIFO
+│    • Stake-weighted
+│    • Priority-based
+│
+├─ Inclusion Module
+│    • Permissioned access
+│    • Reputation gates
+│
+├─ Economic Module
+│    • Gas token
+│    • Dynamic fees
+│    • Revenue routing
+│
+├─ Governance Module
+│    • DAO / Multisig
+│    • Progressive decentralization
+│
+└─ Atomicity Module
+     • Multi-chain inclusion
+     • Single-block execution
